@@ -16,9 +16,15 @@
        non riceve e non conserva alcun dato personale né alcun file.</p>
 
     <h2>Accesso a Google Drive</h2>
-    <p>Con il tuo consenso l'app usa l'autorizzazione <code>drive.file</code>: può vedere e
-       modificare solo i file e le cartelle che crea lei stessa nel tuo Google Drive per i
-       backup. Non accede agli altri file del tuo Drive.</p>
+    <p>Con il tuo consenso l'app usa due autorizzazioni:</p>
+    <ul>
+      <li><code>drive.readonly</code>: legge l'elenco e il contenuto dei file del tuo Google
+          Drive per mostrarteli nell'app, in sola lettura. Non li modifica né li cancella.</li>
+      <li><code>drive.file</code>: crea e modifica solo i file e le cartelle dei backup creati
+          dall'app stessa.</li>
+    </ul>
+    <p>Queste informazioni vengono usate solo sul tuo computer, per mostrarti i tuoi file e
+       gestire i backup. Non vengono inviate allo sviluppatore né a nessun altro.</p>
     <p>I token di accesso sono salvati solo sul tuo computer. Puoi revocare l'accesso in
        qualsiasi momento dall'app (Impostazioni → Servizi cloud → Scollega) o da
        <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
